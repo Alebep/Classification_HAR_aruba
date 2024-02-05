@@ -18,9 +18,9 @@ As atividades reconhecidas são as seguintes:
 
 ## Conjunto de Dados
 
-O CASAS (Center of Advanced Studies in Adaptive System) Aruba é um projeto coordenado pela Universidade Estatal de Washington (WSU), que incluiu sensores e controladores em diversas residências, com o objetivo de tratar o ambiente de forma inteligente.
+O CASAS (Center of Advanced Studies in Adaptive System) é um projeto coordenado pela Universidade Estatal de Washington (WSU), que incluiu sensores e controladores em diversas residências, com o objetivo de tratar o ambiente de forma inteligente.
 
-O presente dataet apresenta dados coletados ao longo de oito meses em uma residência habitada por uma pessoa. A residencia possuia 40 sensores distribuidos por varios comodos.
+O dataset usado para o treinamento do modelo é CASAS aruba. o mesmo apresenta dados coletados ao longo de oito meses em uma residência habitada por uma pessoa. A residencia possuia 40 sensores distribuidos por varios comodos.
 
 link para o dataset: [Dataset](https://casas.wsu.edu/datasets/)
 
