@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O presente modelo tem como objetivo reconhecer atividades realizadas por seres humanos em ambiente residencial. A percepção do ambiente é feita por sensores distribuidos pelo ambiente, esta abordagem para alem de preservar a privacidade dos residentes tem um consumo computacional menor que a baseada em visão computacional, e não requer dispositivos que necessitam de bateria colado ao corpo. 
+O presente modelo pretende reconhecer atividades realizadas por seres humanos em ambiente residencial. A perceção do ambiente é feita por sensores distribuídos pelo ambiente, esta abordagem para além de preservar a privacidade dos residentes tem um consumo computacional menor que a baseada em visão computacional, e não requer dispositivos que necessitam de bateria colado ao corpo. 
 
 As atividades reconhecidas são as seguintes:
 
@@ -18,14 +18,11 @@ As atividades reconhecidas são as seguintes:
 
 ## Conjunto de Dados
 
-O conjunto de dados utilizado é o CASAS (Center of
-Advanced Studies in Adaptive System) Aruba. O CASAS é um projeto encabeçado pela Universidade Estatal de Washington
-(WSU), onde em várias residências foram integrados sensores e controladores, que visam tratar o ambiente
-como um agente inteligente.
+O CASAS (Center of Advanced Studies in Adaptive System) Aruba é um projeto coordenado pela Universidade Estatal de Washington (WSU), que incluiu sensores e controladores em diversas residências, com o objetivo de tratar o ambiente de forma inteligente.
 
-O presente dataset tem dados coletados durante 8 meses em uma residencia habitada por uma pessoa. A residencia possuia 40 sensores distribuidos por varios comodos.
+O presente dataet apresenta dados coletados ao longo de oito meses em uma residência habitada por uma pessoa. A residencia possuia 40 sensores distribuidos por varios comodos.
 
-link para competição: [Dataset](https://casas.wsu.edu/datasets/)
+link para o dataset: [Dataset](https://casas.wsu.edu/datasets/)
 
 ## Metodologia
 
