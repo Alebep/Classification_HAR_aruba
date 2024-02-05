@@ -49,7 +49,6 @@ Na tabela abaixo, temos a lista de algortimos testados:
 
 | Algoritmo              | Melhores Hiperparâmetros                                     | Acurácia |
 |------------------------|-------------------------------------------------------------|----------|
-| RandomForestClassifier | max_features = 0.01, min_samples_split = 4, n_estimators = 80,
-n_jobs = -1, random_state = 1 | 0.93 |
+| RandomForestClassifier | max_features = 0.01, min_samples_split = 4, n_estimators = 80, n_jobs = -1, random_state = 1 | 0.93 |
 | SVM      | C = 1000, gamma = 0.001, kernel = ’linear’ | 0.89     |
 | LogisticRegression     | fit_intercept = True, max_iter = 100, penalty = ’l2’, tol = 0.0001 | 0.80     |
