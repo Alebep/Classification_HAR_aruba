@@ -1,4 +1,4 @@
-# Competição ML @SBS/DAA - 5ª Edição (2022/2023)
+# Modelo HAR ambiente residencial 
 
 ## Introdução
 
@@ -6,15 +6,15 @@ O presente modelo tem como objetivo reconhecer atividades realizadas por seres h
 
 As atividades reconhecidas são as seguintes:
 
-Meal_Preparation (Preparar refeição)
-Relax (relaxar), 
-Bed_to_Toilet (ir da cama para
-casa de banho), 
-Eating (comer),  
-Leave_Home (sair de casa), 
-Enter_Home (entrar em casa), 
-Sleeping (dormir), 
-Work (trabalhar).
+- **Meal Preparation (Preparar Refeição)**
+- **Relax (Relaxar)**
+- **Bed to Toilet (Ir da Cama para Casa de Banho)**
+- **Eating (Comer)**
+- **Leave Home (Sair de Casa)**
+- **Enter Home (Entrar em Casa)**
+- **Sleeping (Dormir)**
+- **Work (Trabalhar)**
+
 
 ## Conjunto de Dados
 
@@ -52,6 +52,7 @@ Na tabela abaixo, temos a lista de algortimos testados:
 
 | Algoritmo              | Melhores Hiperparâmetros                                     | Acurácia |
 |------------------------|-------------------------------------------------------------|----------|
-| RandomForestClassifier | 'criterion': 'entropy', 'max depth': None, 'max features': 1.0, 'n estimators': 100 | 0.94 |
-| BaggingClassifier      | 'max features': 1.0, 'max samples': 0.5, 'n estimators': 100, 'random state': None | 0.93     |
-| LogisticRegression     | 'fit intercept': True, 'max iter': 10, 'penalty': 'l2', 'tol': 0.0001 | 0.41     |
+| RandomForestClassifier | max_features = 0.01, min_samples_split = 4, n_estimators = 80,
+n_jobs = -1, random_state = 1 | 0.93 |
+| SVM      | C = 1000, gamma = 0.001, kernel = ’linear’ | 0.89     |
+| LogisticRegression     | fit_intercept = True, max_iter = 100, penalty = ’l2’, tol = 0.0001 | 0.80     |
