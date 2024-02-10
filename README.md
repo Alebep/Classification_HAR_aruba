@@ -1,6 +1,6 @@
 # Modelo HAR ambiente residencial 
 
-## Introdução
+## Enquadramento
 
 O presente modelo pretende reconhecer atividades realizadas por seres humanos em ambiente residencial. A perceção do ambiente é feita por sensores distribuídos pelo ambiente, esta abordagem para além de preservar a privacidade dos residentes tem um consumo computacional menor que a baseada em visão computacional, e não requer dispositivos que necessitam de bateria colado ao corpo. 
 
